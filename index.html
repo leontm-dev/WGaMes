@@ -81,9 +81,8 @@
       <div class="tic-tac-toe"></div>
     </section>
     <section class="hideElement" id="mädn">
-      <div class="gameBoard">
-        <img class="board" src="/Images/Mädn/Brett.png" />
-        <div class="figure" id="blue1">
+      <div class="board">
+        <div class="figure blue" id="blue1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -98,7 +97,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="blue2">
+        <div class="figure blue" id="blue2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -113,7 +112,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="blue3">
+        <div class="figure blue" id="blue3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -128,7 +127,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="blue4">
+        <div class="figure blue" id="blue4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -143,7 +142,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="red1">
+        <div class="figure red" id="red1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -159,7 +158,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="red2">
+        <div class="figure red" id="red2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -175,7 +174,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="red3">
+        <div class="figure red" id="red3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -191,7 +190,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="red4">
+        <div class="figure red" id="red4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -207,7 +206,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="green1">
+        <div class="figure green" id="green1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -221,7 +220,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="green2">
+        <div class="figure green" id="green2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -235,7 +234,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="green3">
+        <div class="figure green" id="green3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -249,7 +248,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="green4">
+        <div class="figure green" id="green4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -263,7 +262,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="yellow1">
+        <div class="figure yellow" id="yellow1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -277,7 +276,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="yellow2">
+        <div class="figure yellow" id="yellow2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -291,7 +290,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="yellow3">
+        <div class="figure yellow" id="yellow3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -305,7 +304,7 @@
             />
           </svg>
         </div>
-        <div class="figure" id="yellow4">
+        <div class="figure yellow" id="yellow4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -320,9 +319,109 @@
           </svg>
         </div>
       </div>
-      <div class="chat">
-        <div class="chat-message">Hallo</div>
-        <div class="chat-alert">Nicht!</div>
+      <div class="sidestats">
+        <div class="dice" id="dice">
+          <div class="dice-side" id="dice1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-dice-1"
+              viewBox="0 0 16 16"
+            >
+              <circle cx="8" cy="8" r="1.5" />
+              <path
+                d="M13 1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10zM3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3z"
+              />
+            </svg>
+          </div>
+          <div class="dice-side" id="dice2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-dice-2"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M13 1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10zM3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3z"
+              />
+              <path
+                d="M5.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm8 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+              />
+            </svg>
+          </div>
+          <div class="dice-side" id="dice3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-dice-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M13 1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10zM3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3z"
+              />
+              <path
+                d="M5.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm8 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-4-4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+              />
+            </svg>
+          </div>
+          <div class="dice-side" id="dice4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-dice-4"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M13 1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10zM3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3z"
+              />
+              <path
+                d="M5.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm8 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-8 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+              />
+            </svg>
+          </div>
+          <div class="dice-side" id="dice5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-dice-5"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M13 1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10zM3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3z"
+              />
+              <path
+                d="M5.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm8 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-8 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm4-4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+              />
+            </svg>
+          </div>
+          <div class="dice-side" id="dice6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-dice-6"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M13 1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10zM3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3z"
+              />
+              <path
+                d="M5.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm8 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-8 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+              />
+            </svg>
+          </div>
+        </div>
       </div>
     </section>
     <section class="hideElement" id="viergewinnt"></section>
