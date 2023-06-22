@@ -1,0 +1,49 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins&display=swap");
+
+/* Basic Styles */
+
+.hideElement {
+  display: none;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(77, 77, 77);
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.starting {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  justify-content: center;
+  display: flex;
+}
+.web-title {
+  font-size: 120px;
+  color: white;
+  text-align: center;
+  margin: 200px auto;
+  font-family: "Poppins";
+}
+.web-button-box {
+  margin: 100px auto;
+  justify-content: space-evenly;
+  display: flex;
+}
+#games2player {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}

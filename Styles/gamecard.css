@@ -1,0 +1,38 @@
+.game-card {
+  position: relative;
+  min-width: 300px;
+  aspect-ratio: 200/150;
+  margin: auto;
+  display: flex;
+}
+.game-card img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  filter: blur(3px);
+}
+.card-title {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.game-card:hover {
+  cursor: pointer;
+}
+#mädn-card {
+  position: absolute;
+  top: calc(50% - 525px / 2);
+  left: calc(50% - 350px);
+  width: 700px;
+  margin: auto;
+}

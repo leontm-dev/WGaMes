@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WGaMes</title>
+    <link rel="stylesheet" href="Styles/style.css" />
+    <link rel="stylesheet" href="Styles/loader.css" />
+    <link rel="stylesheet" href="Styles/button.css" />
+    <link rel="stylesheet" href="Styles/gamecard.css" />
+    <link rel="stylesheet" href="Styles/mädn.css" />
+    <link rel="stylesheet" href="Styles/tictactoe.css" />
+    <link rel="stylesheet" href="Styles/viergewinnt.css" />
+    <style>
+      .hideElement {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="🤚" id="loader">
+      <div class="👉"></div>
+      <div class="👉"></div>
+      <div class="👉"></div>
+      <div class="👉"></div>
+      <div class="🌴"></div>
+      <div class="👍"></div>
+    </div>
+    <section id="starting" class="hideElement">
+      <div class="web-title">WGaMes</div>
+      <div class="web-button-box">
+        <button class="btn" id="2players">2 Spieler</button>
+        <button class="btn" id="4players">4 Spieler</button>
+      </div>
+    </section>
+    <section class="hideElement" id="games2player">
+      <div class="game-card hideElement" id="tictactoe-card">
+        <img src="Images/Cards/tictactoe.jpg" />
+        <div class="card-title">TicTacToe</div>
+      </div>
+      <div class="game-card hideElement" id="viergewinnt-card">
+        <img src="Images/Cards/vier_gewinnt.jpg" />
+        <div class="card-title">Vier Gewinnt</div>
+      </div>
+    </section>
+    <section class="hideElement" id="games4player">
+      <div class="game-card hideElement" id="mädn-card">
+        <img src="Images/Cards/mädn.jpg" />
+        <div class="card-title">Mensch ärger dich nicht</div>
+      </div>
+    </section>
+    <section class="hideElement" id="tictactoe">
+      <div class="tic-tac-toe"></div>
+    </section>
+    <section class="hideElement" id="mädn">
+      <div class="playfield">
+        <div class="playfield-base">
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+        </div>
+        <div class="playfield-base">
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+        </div>
+        <div class="playfield-base">
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+        </div>
+        <div class="playfield-base">
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+          <div class="base-field"></div>
+        </div>
+      </div>
+      <div class="chat">
+        <div class="chat-message">Hallo</div>
+        <div class="chat-alert">Nicht!</div>
+      </div>
+    </section>
+    <section class="hideElement" id="viergewinnt"></section>
+    <script src="Scripts/script.js"></script>
+    <script src="Scripts/tictactoe.js"></script>
+    <script src="Scripts/mädn.js"></script>
+  </body>
+</html>
