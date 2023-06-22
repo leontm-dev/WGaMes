@@ -14,11 +14,11 @@
   overflow: hidden;
 }
 
-button:hover {
+.btn:hover {
   color: black;
 }
 
-button:after {
+.btn:after {
   content: "";
   background: white;
   position: absolute;
@@ -31,8 +31,44 @@ button:after {
   transition: all 0.5s;
 }
 
-button:hover:after {
+.btn:hover:after {
   transform: skewX(-45deg) scale(1, 1);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+.button {
+  display: flex;
+  height: 3em;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee4b;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+}
+
+.button > svg {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+}
+
+.button:hover > svg {
+  font-size: 1.2em;
+  transform: translateX(-5px);
+}
+
+.button:hover {
+  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+  transform: translateY(-2px);
+}
+.exit-button {
+  position: absolute;
+  top: 5%;
+  left: calc(50% - 50px);
 }
