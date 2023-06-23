@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "x's-turn": "Spieler 1 ist am Zug.",
         "o-wins": "Spieler 2 gewinnt.",
         "x-wins": "Spieler 1 gewinnt.",
-        draw: "unentschieden.",
+        draw: "Unentschieden.",
         instructions: "Abwechslend klicken",
         select: "wählen",
         "new game?": "Neues Spiel?",
