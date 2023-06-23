@@ -33,5 +33,101 @@
   background-color: rgb(1, 78, 1);
 }
 .hover-figure:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+.sidestats {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 400px;
+  height: 100vh;
+}
+.instructions {
+  position: relative;
+  margin: 20px 0;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  font-family: "Poppins";
+  text-align: center;
+}
+.player {
+  height: 100px;
+  width: 98%;
+  margin: 40px 0;
+  position: relative;
+  padding: 2px 0 2px 2px;
+}
+.player-figure {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.player-figure svg {
+  width: 35px;
+  height: 35px;
+  margin: auto;
+}
+#player-blue > .player-figure {
+  background-color: rgb(42, 42, 122);
+}
+#player-red > .player-figure {
+  background-color: rgb(128, 0, 0);
+}
+#player-green > .player-figure {
+  background-color: rgb(1, 78, 1);
+}
+#player-yellow > .player-figure {
+  background-color: rgb(131, 131, 0);
+}
+.player-color {
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: 800;
+}
+#player-blue > .player-color {
+  color: blue;
+}
+#player-red > .player-color {
+  color: red;
+}
+#player-green > .player-color {
+  color: green;
+}
+#player-yellow > .player-color {
+  color: yellow;
+}
+.borderPlayer {
+  border-top: solid red 2px;
+  border-left: solid red 2px;
+  border-bottom: solid red 2px;
+}
+.dice {
+  height: 60px;
+  width: 60px;
+  background-color: orange;
+  justify-content: center;
+  display: flex;
+  border-radius: 11px;
+  position: absolute;
+  top: 5%;
+  right: 500px;
+}
+.dice-side {
+  width: 60px;
+  margin: auto;
+  height: 60px;
+}
+.dice-side svg {
+  width: 100%;
+  height: 100%;
+}
+.avaibled {
+  background-color: rgb(84, 255, 84);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
 }
